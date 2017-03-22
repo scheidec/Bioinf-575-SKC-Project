@@ -1,2 +1,2 @@
 # Bioinf-575-SKC-Project
-RNaseP Machine Learning Project
+Riboswitch Classification Machine Learning Project
