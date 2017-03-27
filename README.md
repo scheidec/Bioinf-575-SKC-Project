@@ -41,3 +41,14 @@ e.g
 
 note: each list is in the format of  
 ['ID', 'A%', 'C%', 'T%', 'G%', 'AA%', 'AC%', 'GT%', 'AG%', 'CC%', 'TT%', 'CG%', 'GG%', 'GC%', 'AT%', 'GA%', 'TG%', 'CT%', 'CA%', 'TC%', 'TA%']
+
+Labels:
+RF00059 - 1
+RF00174 - 2
+RF00162 - 3
+RF00504 - 4
+RF00168 - 5
+RF00050 - 6
+RF00167 - 7
+RF01051 - 8
+
