@@ -22,7 +22,7 @@ KNN (Nearest Neighbor)
 
 Feature Extraction Usage:
 
-Arg: 
+Arg:
 Python Data_processing.py file.fa
 
 Return:
@@ -40,4 +40,4 @@ e.g
   '0.0285714285714' '0.0428571428571' '0.0714285714286' '0.0357142857143']]
 
 note: each list is 
-['ID', 'A', 'C', 'T', 'G', 'AA', 'AC', 'GT', 'AG', 'CC', 'TT', 'CG', 'GG', 'GC', 'AT', 'GA', 'TG', 'CT', 'CA', 'TC', 'TA']
+['ID', 'A%', 'C%', 'T%', 'G%', 'AA%', 'AC%', 'GT%', 'AG%', 'CC%', 'TT%', 'CG%', 'GG%', 'GC%', 'AT%', 'GA%', 'TG%', 'CT%', 'CA%', 'TC%', 'TA%']
