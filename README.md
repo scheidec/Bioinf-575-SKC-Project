@@ -20,7 +20,7 @@ KNN (Nearest Neighbor)
 
 
 
-Feature Extraction Usage:
+**Feature Extraction Usage:**
 
 Arg:  
 Python Data_processing.py file.fa
