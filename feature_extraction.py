@@ -15,7 +15,7 @@ def monofreq(seq):
         count = seq.count(base)
         all_counts[base] = count
     for key in all_counts:
-        all_counts[key] = float(all_counts[key]) / len(seq)
+        all_counts[key] = round(float(all_counts[key]) / len(seq),2)
     return(all_counts)
 
 #print monofreq(rna)
@@ -30,7 +30,7 @@ def difreq(seq):
             all_counts[dinucleotide] = count
     for key in all_counts:
         length = len(seq) - 1
-        all_counts[key] = float(all_counts[key]) / length
+        all_counts[key] = round(float(all_counts[key]) / length,2)
     return(all_counts)
 
 #print difreq(rna)
