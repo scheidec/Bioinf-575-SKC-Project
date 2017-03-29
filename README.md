@@ -22,7 +22,7 @@ KNN (Nearest Neighbor)
 
 **Feature Extraction Usage:**
 
-Code in Python:
+Code in Python:  
 import Data_processing as dp  
 file = open("RF00059.fa")  
 print(dp.ft_ext(file))  
