@@ -24,9 +24,8 @@ KNN (Nearest Neighbor)
 
 Code in Python:
 import Data_processing as dp  
-file = open("RF00059.fa")
-print(dp.ft_ext(file))
-
+file = open("RF00059.fa")  
+print(dp.ft_ext(file))  
 
 Return:  
 a list of lists
