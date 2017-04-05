@@ -110,6 +110,15 @@ two_class_34_train, two_class_34_test = mesh_data_two_class(data_ary_names[2], d
 two_class_56_train, two_class_56_test = mesh_data_two_class(data_ary_names[4], data_ary_names[5])
 two_class_78_train, two_class_78_test = mesh_data_two_class(data_ary_names[6], data_ary_names[7])
 
+np.save('two_class_12_train', two_class_12_train)
+np.save('two_class_12_test', two_class_12_test)
+np.save('two_class_34_train', two_class_34_train)
+np.save('two_class_34_test', two_class_34_test)
+np.save('two_class_56_train', two_class_56_train)
+np.save('two_class_56_test', two_class_56_test)
+np.save('two_class_78_train', two_class_78_train)
+np.save('two_class_78_test',two_class_78_test)
+
 
 
 ##########################################################
@@ -122,6 +131,10 @@ four_class_1234_train, four_class_1234_test = mesh_data_four_class(data_ary_name
 four_class_5678_train, four_class_5678_test = mesh_data_four_class(data_ary_names[4], data_ary_names[5], 
                                                                    data_ary_names[6], data_ary_names[7])
 
+np.save('four_class_1234_train', four_class_1234_train)
+np.save('four_class_1234_test', four_class_1234_test)
+np.save('four_class_5678_train', four_class_5678_train)
+np.save('four_class_5678_test', four_class_5678_test)
 
 
 ##########################################################
@@ -133,6 +146,10 @@ eight_class_train, eight_class_test = mesh_data_eight_class(data_ary_names[0], d
                                                             data_ary_names[2], data_ary_names[3], 
                                                             data_ary_names[4], data_ary_names[5], 
                                                             data_ary_names[6], data_ary_names[7])
+
+np.save('eight_class_train', eight_class_train)
+np.save('eight_class_test', eight_class_test)
+
 
 
 
